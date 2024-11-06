@@ -5,3 +5,8 @@ resource "aws_vpc" "vpc_prd" {
   
 }
 
+resource "aws_internet_gateway" "igw" {
+    vpc_id = aws_vpc.vpc_prd.id
+    tags = var.aws_internet_gateway_tag
+  
+}

@@ -11,3 +11,12 @@ variable "vpc_tags" {  # Nome simplificado e mais genérico
         Name = "VPC-Prod"
     }  
 }
+
+#Variable para IGW 
+variable "aws_internet_gateway_tag" {
+  type = map(string)
+  description = "IGW para VPC prod"
+  default = {
+    "Name" = "Internet Gateway"
+  }
+}
