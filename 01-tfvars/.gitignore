@@ -12,7 +12,6 @@
 .terraform/
 
 # Ignore variáveis sensíveis locais
-*.tfvars
 *.tfvars.json
 
 # Arquivos de saída
