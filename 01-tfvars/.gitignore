@@ -12,7 +12,8 @@
 .terraform/
 
 # Ignore variáveis sensíveis locais
-*.tfvars.json
+# .tfvars
+# .tfvars.json
 
 # Arquivos de saída
 crash.log
