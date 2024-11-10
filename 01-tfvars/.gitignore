@@ -29,6 +29,6 @@ crash.log
 *.log
 
 # Ignorar o arquivo de variáveis sensíveis (se existir)
-*.tfvars
+#*.tfvars
 
 # Ignorar outros arquivos que você não deseja versionar
